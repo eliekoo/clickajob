@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+        <item
+        android:id="@+id/MyProfile"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="My Profile"/>
+        
+  
+    <item android:id="@+id/MyResume"
+        android:orderInCategory="100"
+         android:showAsAction="never"
+        android:title="My Resume"/>
+    
+    <item android:id="@+id/MyView"
+        android:orderInCategory="100"
+         android:showAsAction="never"
+        android:title="View MyResume"/>
+    
+        <item android:id="@+id/LogOut"
+        android:orderInCategory="100"
+         android:showAsAction="never"
+        android:title="Log Out"/>
+
+</menu>

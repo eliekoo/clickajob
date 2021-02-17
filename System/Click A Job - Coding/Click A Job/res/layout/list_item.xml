@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- vacancy id (pid) - will be HIDDEN - used to pass to other activity -->
+    <TextView
+        android:id="@+id/vid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    
+    <TextView
+        android:id="@+id/jobtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dip"
+        android:paddingLeft="6dip"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+
+    <!-- Name Label -->
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dip"
+        android:paddingLeft="6dip"
+        android:textSize="12dip"
+        android:textStyle="bold" />
+    
+        <TextView
+        android:id="@+id/location"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dip"
+        android:paddingLeft="6dip"
+        android:textSize="12dip"
+        android:textStyle="bold" />
+        
+         <TextView
+        android:id="@+id/salary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dip"
+        android:paddingLeft="6dip"
+        android:textSize="15dip"
+         />
+         
+           <TextView
+               android:id="@+id/line"
+               android:layout_width="fill_parent"
+               android:layout_height="5dp"
+               android:background="#0AE2FA"
+               android:paddingLeft="6dip"
+               android:paddingTop="6dip"
+               android:textStyle="bold" />
+
+ </LinearLayout>

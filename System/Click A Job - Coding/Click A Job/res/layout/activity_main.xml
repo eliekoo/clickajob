@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:background="@drawable/bg"
+    >
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:text="A simple click can change your future!"
+    android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/wel"
+        android:layout_marginTop="68dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ibEmployee"
+        android:src="@drawable/employee"
+        android:layout_marginBottom="20dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ibEmployer"
+        android:src="@drawable/employer"
+        android:layout_below="@+id/ibEmployee"
+        android:layout_alignStart="@+id/ibEmployee"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/format"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ibEmployer"
+        android:layout_alignLeft="@+id/wel"
+        android:layout_alignRight="@+id/wel"
+        android:layout_below="@+id/wel"
+        android:layout_marginTop="14dp"
+        android:gravity="center_horizontal"
+        android:text="Please choose your category!"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvaboutus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ibEmployer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="About Us"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+</RelativeLayout>
+

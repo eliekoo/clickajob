@@ -1,0 +1,24 @@
+There are two types of clickajob file which is SQL form and XML form.
+
+Actually there are same,
+but SQL is default used by phpmyadmin, while XML is easy to understand.
+
+
+
+---------------------------------How to use?--------------------------------
+
+
+1. open XAMPP.
+2. select 'start' for both Apache and MySQL.
+3. open brower with enter 'http://localhost/phpmyadmin/' (Localhost /IP address might be different, for example: 192.168.43.78) ,
+4. click 'import' in the navigation bar of phpmyadmin.
+5. select SQL or XML file for import and change format according to file type.
+6. Database of clickajob will be imported.
+7. Done.
+
+
+Thank you so much.
+
+
+
+Author: Koo Sheng Kuan 168225

@@ -1,0 +1,84 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Field of Interest"
+        android:layout_height="wrap_content" />
+
+    <EditText
+    android:id="@+id/etInterest1"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="10dp"
+        android:hint="Compulsory"
+    android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etInterest2"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:hint="Optional"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etInterest3"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:hint="Optional"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:text="Skills"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etSkill"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:hint="Description about your skills."
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:text="Strength"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="Desription about your strength."
+        android:id="@+id/etStrength"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#55ED8A"
+        android:text="Save and Next" />
+
+    <Button
+        android:id="@+id/bClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#F25A5C"
+        android:text="Clear" />
+
+</LinearLayout>
+</ScrollView>

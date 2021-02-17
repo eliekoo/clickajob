@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    package="com.example.clickajob"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19"/>
+
+    
+    <application
+        android:hardwareAccelerated="false"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Click A Job"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.clickajob.Loading"
+            android:label="Click A Job"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.clickajob.MainActivity"
+            android:label="Click A Job" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.clickajob.Login"
+            android:label="Employee Login" >
+        </activity>
+        <activity
+            android:name="com.example.clickajob.Register"
+            android:label="Employee Register" >
+        </activity>
+        <activity
+            android:name="com.example.clickajob.ContactInfo"
+            android:label="Contact Information" >
+        </activity>
+        <activity
+            android:name="com.example.clickajob.Academic"
+            android:label="Academic Details" >
+        </activity>
+        <activity
+            android:name="com.example.clickajob.WorkExperience"
+            android:label="Work Experience" >
+        </activity>
+        <activity
+            android:name="com.example.clickajob.EmployeeMain"
+            android:label="Employee Main Page" >
+        </activity>
+        <activity
+            android:name="com.example.clickajob.InterestSkill"
+            android:label="Interests and Skills" >
+        </activity>
+        <activity
+            android:name="com.example.clickajob.Project"
+            android:label="Project Details" >
+        </activity>
+        <activity
+            android:name="com.example.clickajob.Reference"
+            android:label="Reference" >
+        </activity>
+        <activity
+            android:name="com.example.clickajob.Other"
+            android:label="Other" >
+        </activity>
+        <activity
+            android:name="com.example.clickajob.term"
+            android:label="Term and Condition" >
+        </activity>
+        <activity
+            android:name="com.example.clickajob.LoginR"
+            android:label="Employer Login" >
+        </activity>
+        <activity
+            android:name="com.example.clickajob.EmployerMain"
+            android:label="Employer Main Page" >
+        </activity>
+        <activity
+            android:name="com.example.clickajob.RegisterR"
+            android:label="Employer Register" >
+        </activity>
+        <activity
+            android:name="com.example.clickajob.EmployeeView"
+            android:label="View MyResume" >
+        </activity>
+        <activity
+            android:name="com.example.clickajob.EmployeeProfile"
+            android:label="My Profile" >
+        </activity>  
+        <activity
+            android:name="com.example.clickajob.ShareEmail"
+            android:label="Email" >
+        </activity>
+        <activity
+            android:name="com.example.clickajob.EmployeeResume"
+            android:label="Resume" >
+        </activity>
+        <activity
+            android:name="com.example.clickajob.EmployeeApply"
+            android:label="Apply for Job" >
+        </activity>
+        
+        <activity
+            android:name="com.example.clickajob.Aboutus"
+            android:label="About Us" >
+        </activity>
+        <activity
+            android:name="com.example.clickajob.Postjob"
+            android:label="Post Vacancy" >
+        </activity>
+        <activity
+            android:name="com.example.clickajob.EmployerPost"
+            android:label="Post Vacancy" >
+        </activity>
+        <activity
+            android:name="com.example.clickajob.ViewCandidate"
+            android:label="View Candidate" >
+        </activity>
+        <activity
+            android:name="com.example.clickajob.EmployerJobView"
+            android:label="Job Details" >
+        </activity>
+       
+    </application>
+
+</manifest>

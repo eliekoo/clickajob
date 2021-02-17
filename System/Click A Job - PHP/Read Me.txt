@@ -1,0 +1,18 @@
+This is clickajob folder with PHP files.
+Those PHP files are used to connect with database, insert or delect data from database.
+
+
+---------------------------------How to use?--------------------------------
+
+
+1. install XAMPP.
+2. copy / cut this 'clickajob' folder and move to C:\xampp\htdocs
+3. open brower with enter 'http://localhost/clickajob/' (Localhost /IP address might be different, for example: 192.168.43.78) ,
+4. Those PHP files will be shown.
+
+
+Thank you so much.
+
+
+
+Author: Koo Sheng Kuan 168225

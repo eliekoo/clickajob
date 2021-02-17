@@ -1,0 +1,87 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Name"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etRefName"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Designation"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etRefDes"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Organization / Company"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etRefOrg"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Phone Number"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etRefPhone"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:inputType="phone"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Email"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etRefEmail"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#55ED8A"
+        android:text="Save and Next" />
+
+    <Button
+        android:id="@+id/bClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#F25A5C"
+        android:text="Clear" />
+
+</LinearLayout>
+</ScrollView>

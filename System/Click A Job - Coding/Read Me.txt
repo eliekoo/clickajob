@@ -1,0 +1,5 @@
+(1) .apk file is at Click A Job\bin
+
+(2) System coding is at Click A Job\src\com\example\clickajob
+
+(3) resource/picture/layout/menu of mobile apps is at Click A Job\res

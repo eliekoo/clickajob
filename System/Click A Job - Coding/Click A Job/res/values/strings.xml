@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ClickAJob</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_share_email">ShareEmail</string>
+    <string name="title_activity_employee_resume">EmployeeResume</string>
+    <string name="title_activity_employee_apply">EmployeeApply</string>
+    <string name="title_activity_loading">Loading</string>
+    <string name="title_activity_aboutus">Aboutus</string>
+    <string name="title_activity_postjob">Postjob</string>
+    <string name="title_activity_employer_post">EmployerPost</string>
+    <string name="title_activity_view_candidate">ViewCandidate</string>
+    <string name="title_activity_employer_job_view">EmployerJobView</string>
+
+</resources>
